@@ -5,6 +5,19 @@
   "checkpoints_included": false,
   "installed_runtime_included": false,
   "original_experiments_modified": false,
+  "publication": {
+    "target": "public GitHub repository ESPC-Transolver-code",
+    "absolute_provenance_roots_redacted": true,
+    "secret_pattern_hits": 0,
+    "model_and_training_sources_unchanged": true,
+    "release_only_edits": [
+      "README.md"
+    ],
+    "new_readme_and_notices": true,
+    "default_documentation_language": "en",
+    "english_code_guide": "CODE_GUIDE.md",
+    "chinese_guide_preserved": true
+  },
   "files": {
     ".gitattributes": {
       "size": 88,
@@ -15,6 +28,11 @@
       "size": 420,
       "sha256": "44a0ebf51dc45a9722db50338089ebc8cd44eaa60f2a81c6f4c9e94dc697ce98",
       "source": "release/.gitignore"
+    },
+    "CODE_GUIDE.md": {
+      "size": 6574,
+      "sha256": "38743c8075dada212a104417f278902c26e59b6ec9101a0211d9c9c8c62f6727",
+      "source": "release/CODE_GUIDE.md"
     },
     "ERWIN_GEO_STRONG_LOCAL_20261013.md": {
       "size": 3151,
@@ -42,8 +60,8 @@
       "source": "{original_project}/POINT_REFERENCES_LOCAL_20261010.md"
     },
     "README.md": {
-      "size": 6754,
-      "sha256": "0db00f8c24c57051ecec32364759d62b18f0076cf8f55212b4bd909acd4bcc33",
+      "size": 8640,
+      "sha256": "73c1ff437d8a5e2e26f67c78d5cbe7cb7d5f899c2be2a9545c0adfd3b4afc212",
       "source": "release/README.md"
     },
     "README_代码说明.md": {
@@ -1317,17 +1335,6 @@
       "source": "release/work/subset11_train_deps/timm/LICENSE"
     }
   },
-  "file_count": 262,
-  "bytes": 3546654,
-  "publication": {
-    "target": "public GitHub repository ESPC-Transolver-code",
-    "absolute_provenance_roots_redacted": true,
-    "secret_pattern_hits": 0,
-    "model_and_training_sources_unchanged": true,
-    "release_only_edits": [
-      "README_代码说明.md",
-      "inspect_sources.py"
-    ],
-    "new_readme_and_notices": true
-  }
+  "file_count": 263,
+  "bytes": 3555114
 }
