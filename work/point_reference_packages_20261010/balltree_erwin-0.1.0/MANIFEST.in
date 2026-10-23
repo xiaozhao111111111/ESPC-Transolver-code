@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include balltree/*.h
+include balltree/*.pyx
+include balltree/*.pxd
+recursive-include balltree *.h *.pyx *.pxd
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__

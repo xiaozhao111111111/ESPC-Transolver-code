@@ -1,0 +1,12 @@
+bempp-cl
+hydra-core
+torch==2.4.0
+pytorch-lightning
+roma
+gmsh
+meshio
+pyyaml
+tqdm
+wandb
+torch_geometric
+nvidia-physicsnemo==1.0.1

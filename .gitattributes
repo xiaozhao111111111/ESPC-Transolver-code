@@ -1,0 +1,2 @@
+# Preserve byte-level provenance and source-bound SHA-256 hashes across clones.
+* -text

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools", "wheel", "cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "balltree-erwin"
+version = "0.1.0"
+description = "Fast parallel ball tree construction for machine learning"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Maksim Zhdanov", email = "maxxxzdn@pm.me"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "torch",
+]
+
+[project.urls]
+Homepage = "https://github.com/maxxxzdn/balltree"
+Repository = "https://github.com/maxxxzdn/balltree"
+Issues = "https://github.com/maxxxzdn/balltree/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["balltree*"]
+exclude = ["tests*"]
