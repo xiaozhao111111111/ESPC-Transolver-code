@@ -1,4 +1,6 @@
-# This repository publishes source code only.
+data/
+runtime/
+outputs/
 __pycache__/
 *.py[cod]
 .venv/
@@ -11,10 +13,6 @@ venv/
 *.pfx
 credentials*.json
 *token*.local
-outputs/
-datasets/
-runtime/
-reproduced_runs/
 *.npy
 *.npz
 *.pt
@@ -28,9 +26,4 @@ reproduced_runs/
 *.so
 *.dylib
 *.log
-*.export_pending
-work/numeric_deps/
-work/runtime_support/
-work/point_reference_deps_20261010/
-work/torus_eval_deps_20261010/
-.release_private/
+*.pending
